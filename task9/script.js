@@ -8,7 +8,7 @@ function multiply(num1, num2) {
     return num1 * num2;
 }
 function divide(num1, num2) {
-    if (num2 == 0) console.log('Division by zero is undefined')
+    if (num2 == 0) return 'Division by zero is undefined';
     else return num1 / num2;
 }
 function mycalculator(operation, num1, num2) {
@@ -29,3 +29,5 @@ mycalculator('add',6,3);
 mycalculator('subtract',6,3);
 mycalculator('multiply',6,3);
 mycalculator('divide',6,3);
+mycalculator('divide',6,0);
+mycalculator('undefined',6,3);
