@@ -1,6 +1,6 @@
-let i=Math.floor(Math.random() * 11);
-while(i<8){
+let i=Math.floor(Math.random() * 10+1);
+while(i<8git ){
     console.log(i);
-    i=Math.floor(Math.random() * 11);
+    i=Math.floor(Math.random() * 10+1);
     
 }
