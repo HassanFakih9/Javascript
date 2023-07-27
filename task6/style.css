@@ -8,7 +8,8 @@
     width:80%;
     height: 300px;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 2;
+    grid-template-rows: 3; 
+    grid-auto-rows: auto;
     align-items: center;
     justify-items: center;
     border-radius: 2%;
@@ -42,4 +43,22 @@
     font-size: 15;
     height:100%;
     
+}
+@media screen and (max-width: 700px){
+    .maincontainer{
+        padding: 5%;
+        width:100%;
+    }
+    .container{
+        height: 80%;
+
+    }
+    .pstyle{
+        width: auto;
+        height: auto;
+        
+    }
+    .inputstyle{
+        margin-top: 10%;
+    }
 }
