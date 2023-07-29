@@ -28,6 +28,6 @@ function mycalculator(operation, num1, num2) {
 mycalculator('add',6,3);
 mycalculator('subtract',6,3);
 mycalculator('multiply',6,3);
-mycalculator('divide',6,3);
+mycalculator('divide',7,3);
 mycalculator('divide',6,0);
 mycalculator('undefined',6,3);
